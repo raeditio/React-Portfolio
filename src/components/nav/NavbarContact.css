@@ -1,0 +1,21 @@
+.fold-contact {
+    display: none;
+  }
+  
+  .dropdown-contact {
+    display: flex;
+    position: fixed;
+    gap: 50px;
+    top: 120%;
+    white-space: nowrap;
+    left: 0;
+    transform: translateX(-20%);
+    text-decoration: underline #9c9898;
+  }
+
+  .dropdown-contact a:hover {
+    background-color: transparent !important;
+    /* color: #172991 !important; */
+    text-decoration: underline rgb(16, 15, 15) 1px;
+    transition: text-decoration 0.3s ease-out;
+  }

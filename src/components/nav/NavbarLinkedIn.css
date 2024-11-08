@@ -1,0 +1,14 @@
+.linkedin-icon {
+    width: 20px; /* Adjust size as needed */
+    height: 20px;
+    vertical-align: middle; /* Center icon vertically if needed */
+    border-bottom: solid 2px transparent;
+  }
+  
+  .linkedin-icon:hover {
+    border-bottom: solid 2px rgb(146, 11, 11);
+  }
+
+  .linkedin:hover {
+    background-color: transparent !important;
+  }

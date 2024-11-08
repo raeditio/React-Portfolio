@@ -1,0 +1,21 @@
+.fold-projects {
+    display: none;
+  }
+  
+  .dropdown-projects {
+    display: flex;
+    position: fixed;
+    gap: 50px;
+    top: 120%;
+    white-space: nowrap;
+    align-items: center;
+    left: 0;
+    transform: translateX(-20%);
+    text-decoration: underline #8a8686;
+  }
+
+  .dropdown-projects a:hover {
+    background-color: transparent !important;
+    text-decoration: underline rgb(15, 15, 15) 1px;
+    transition: text-decoration 0.3s ease-out;
+  }
